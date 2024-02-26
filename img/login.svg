@@ -1,0 +1,16 @@
+<svg width="52.000000" height="52.000000" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip3_6654">
+			<rect id="solar:user-bold" width="35.636364" height="35.000000" transform="translate(8.000000 8.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<circle id="Ellipse 445" cx="26.000000" cy="26.000000" r="26.000000" fill="#1D1D1B" fill-opacity="1.000000"/>
+	<rect id="solar:user-bold" width="35.636364" height="35.000000" transform="translate(8.000000 8.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip3_6654)">
+		<path id="Vector" d="M31.7576 16.75C31.7576 19.9717 29.0984 22.5834 25.8182 22.5834C22.538 22.5834 19.8788 19.9717 19.8788 16.75C19.8788 13.5284 22.538 10.9167 25.8182 10.9167C29.0984 10.9167 31.7576 13.5284 31.7576 16.75Z" fill="#FBFBFB" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector" d="M37.697 33.5208C37.697 37.1448 37.697 40.0833 25.8182 40.0833C13.9395 40.0833 13.9395 37.1448 13.9395 33.5208C13.9395 29.8969 19.2582 26.9583 25.8182 26.9583C32.3783 26.9583 37.697 29.8969 37.697 33.5208Z" fill="#FBFBFB" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

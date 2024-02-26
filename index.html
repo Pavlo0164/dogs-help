@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240226202445">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo">
+					<img src="img/logo/logo-black.svg" class="ibg" alt="logo header" />
+				</a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" class="menu__link link-menu">Home</a>
+							</li>
+
+							<li class="menu__item">
+								<a href="#" class="menu__link link-menu">Lost/Found</a>
+								<ul class="menu__sub-menu sub-menu">
+									<li class="sub-menu__item">
+										<a href="#" class="sub-menu__link link-menu link-sub-menu ">Lost a Pet</a>
+									</li>
+									<li class="sub-menu__item">
+										<a href="#" class="sub-menu__link link-menu link-sub-menu">Find a Pet</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link link-menu">Adoption</a>
+								<ul class="menu__sub-menu sub-menu sub-menu--pc-none">
+									<li class="sub-menu__item">
+										<a href="#" class="sub-menu__link link-menu link-sub-menu --active">Popular</a>
+									</li>
+									<li class="sub-menu__item">
+										<a href="#" class="sub-menu__link link-menu link-sub-menu">Recently added</a>
+									</li>
+									<li class="sub-menu__item">
+										<a href="#" class="sub-menu__link link-menu link-sub-menu">Newest addition</a>
+									</li>
+									<li class="sub-menu__item">
+										<a href="#" class="sub-menu__link link-menu link-sub-menu">Oldest addition</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link link-menu">Contacts</a>
+							</li>
+							<li class="menu__item menu__item--login">
+								<a href="#" class="menu__link link-menu">Log in</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__log-in">
+					<a class="header__link-log-in" href="#">Log in</a>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<div class="page__container">
+				<section class="page__block-top top-block">
+					<div class="top-block__content">
+						<h1 class="top-block__title">PetSafety</h1>
+						<div class="top-block__text">
+							<p>
+								Lost your pet? Use our service to find it. Or if you have
+								found the animal, we will help you contact the owner and make
+								the life of the lost pet a little happier.
+							</p>
+						</div>
+						<div class="top-block__button --one">
+							<a href="#" class="top-block__link top-block__link--one">Lost a Pet</a>
+						</div>
+						<div class="top-block__button">
+							<a href="#" class="top-block__link top-block__link--two">Found a Pet</a>
+						</div>
+					</div>
+					<div class="top-block__image">
+						<picture><source srcset="img/home-dog.webp" type="image/webp"><img src="img/home-dog.png" class="ibg" alt="home dog" /></picture>
+					</div>
+				</section>
+				<section class="page__about about">
+					<h2 class="about__title">About us</h2>
+					<div class="about__row">
+						<div class="about__image">
+							<picture><source srcset="img/about.webp" type="image/webp"><img src="img/about.png" alt="about" class="ibg" /></picture>
+						</div>
+						<div data-showmore data-showmore-media="998,max" class="block about__text">
+							<div data-showmore-content="300" class="block__content">
+								<p>
+									PetSafety not only aids in reuniting lost pets with their
+									owners but also plays a crucial role in providing shelter
+									for animals in need.
+								</p>
+								<p>
+									Our commitment extends beyond the swift reunification
+									process, as we actively work to secure safe havens for those
+									who require them. The heartwarming stories of successful
+									reunions we've facilitated stand as a testament to the
+									compassion and generosity of the community.
+								</p>
+								<p>
+									Furthermore, our platform serves as a beacon of hope for
+									those currently facing the distressing situation of a
+									missing pet. The support we offer goes beyond mere
+									technological assistance; it embodies the collective spirit
+									of animal lovers and caring individuals who rally together
+									for a common cause. We take pride in not only reuniting
+									families but also in finding loving homes for animals that,
+									through our efforts, have been rescued from uncertainty.
+								</p>
+								<p>
+									At PetSafety, we believe in the power of community and the
+									positive impact it can have on both pets and their owners.
+									If you find yourself in the unfortunate situation of a lost
+									pet, trust us to be your ally in the journey to bring them
+									back home.
+								</p>
+							</div>
+							<button hidden data-showmore-button type="button" class="block__more">
+								<span>Read More</span>
+								<span>Hide</span>
+							</button>
+						</div>
+						<!-- <div class="about__text">
+               
+              </div> -->
+					</div>
+				</section>
+				<section class="page__happy happy">
+					<!-- Оболонка слайдера -->
+					<h2 class="happy__title">Happy stories</h2>
+					<div class="happy__slider swiper">
+						<!-- Частина слайдера, що рухається -->
+						<div class="happy__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="happy__slide swiper-slide">
+								<div class="happy__image">
+									<picture><source srcset="img/happy.webp" type="image/webp"><img src="img/happy.jpeg" alt="happy" /></picture>
+								</div>
+								<div data-showmore data-showmore-media="998,max" class="happy__show-block block">
+									<div data-showmore-content="300" class="block__content">
+										<div class="happy__text">
+											<p>
+												One day, during our routine stroll, our hearts sank as
+												we discovered Max had gone missing. Panic set in as we
+												tirelessly searched every nook, calling out his name.
+												Realizing the urgency of the situation, we turned to a
+												PetSafety website, hoping that someone in our
+												community had seen our beloved Max.
+											</p>
+											<p>
+												To our immense relief, we found a post from neighbor
+												who had found Max and taken him in. The neighbor
+												detailed the discovery, describing the location where
+												Max was found and providing contact information. As we
+												approached the neighbor's house, the door opened,
+												revealing Max's wagging tail and joyful bark.
+											</p>
+											<p>
+												The entire episode highlighted the power of community
+												and technology working hand in hand. Max's adventure,
+												from the moment he went missing to the heartwarming
+												reunion, became a testament to the strength of
+												compassion and the bonds that connect us all.
+											</p>
+										</div>
+									</div>
+									<button hidden data-showmore-button type="button" class="block__more">
+										<span>Learn more</span><span>Hide</span>
+									</button>
+								</div>
+							</div>
+							<div class="happy__slide swiper-slide">
+								<div class="happy__image">
+									<picture><source srcset="img/happy.webp" type="image/webp"><img src="img/happy.jpeg" alt="happy" /></picture>
+								</div>
+								<div data-showmore data-showmore-media="998,max" class="happy__show-block block">
+									<div data-showmore-content="300" class="block__content">
+										<div class="happy__text">
+											<p>
+												One day, during our routine stroll, our hearts sank as
+												we discovered Max had gone missing. Panic set in as we
+												tirelessly searched every nook, calling out his name.
+												Realizing the urgency of the situation, we turned to a
+												PetSafety website, hoping that someone in our
+												community had seen our beloved Max.
+											</p>
+											<p>
+												To our immense relief, we found a post from neighbor
+												who had found Max and taken him in. The neighbor
+												detailed the discovery, describing the location where
+												Max was found and providing contact information. As we
+												approached the neighbor's house, the door opened,
+												revealing Max's wagging tail and joyful bark.
+											</p>
+											<p>
+												The entire episode highlighted the power of community
+												and technology working hand in hand. Max's adventure,
+												from the moment he went missing to the heartwarming
+												reunion, became a testament to the strength of
+												compassion and the bonds that connect us all.
+											</p>
+										</div>
+									</div>
+									<button hidden data-showmore-button type="button" class="block__more">
+										<span>Learn more</span><span>Hide</span>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="happy__buttons">
+							<button type="button" class="swiper-button-prev">
+								<picture><source srcset="img/left-arrow.webp" type="image/webp"><img src="img/left-arrow.png" class="ibg" alt="arrow" /></picture>
+							</button>
+							<button type="button" class="swiper-button-next">
+								<picture><source srcset="img/right-arrow.webp" type="image/webp"><img src="img/right-arrow.png" class="ibg" alt="arrow2" /></picture>
+							</button>
+						</div>
+						<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+					</div>
+				</section>
+				<section class="page__donat donat">
+					<div class="donat__content">
+						<h2 class="donat__title">Support homeless animals</h2>
+						<div class="donat__text">
+							<p>
+								Your support is the driving force behind countless success
+								stories, where pets not only find their way back home but also
+								embark on a new chapter filled with love and security.
+							</p>
+							<p>
+								By actively participating in PetSafety, you become an advocate
+								for the well-being of animals, playing a crucial role in
+								shaping their destinies. Your involvement not only aids in
+								reuniting lost pets but also ensures that rescued animals find
+								caring homes where they can thrive.
+							</p>
+						</div>
+						<a href="#" class="donat__link">Make a donation</a>
+					</div>
+					<div class="donat__images donat__images--one">
+						<div class="donat__image donat__image--one">
+							<picture><source srcset="img/support-1.webp" type="image/webp"><img src="img/support-1.png" class="ibg" alt="Image" /></picture>
+						</div>
+						<div class="donat__image donat__image--two">
+							<picture><source srcset="img/support-2.webp" type="image/webp"><img src="img/support-2.png" class="ibg" alt="Image" /></picture>
+						</div>
+						<div class="donat__image donat__image--three">
+							<picture><source srcset="img/support-3.webp" type="image/webp"><img src="img/support-3.png" class="ibg" alt="Image" /></picture>
+						</div>
+					</div>
+					<div class="donat__images donat__images--two">
+						<div class="donat__image">
+							<picture><source srcset="img/support-1.webp" type="image/webp"><img src="img/support-1.jpeg" class="ibg" alt="Image" /></picture>
+						</div>
+						<div class="donat__image">
+							<picture><source srcset="img/support-2.webp" type="image/webp"><img src="img/support-2.jpeg" class="ibg" alt="Image" /></picture>
+						</div>
+						<div class="donat__image">
+							<picture><source srcset="img/support-3.webp" type="image/webp"><img src="img/support-3.jpeg" class="ibg" alt="Image" /></picture>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__row">
+					<div class="footer__about">
+						<a href="#" class="footer__logo">
+							<img src="img/logo/logo-white.svg" class="ibg" alt="Image-logo" />
+						</a>
+						<div class="footer__text">
+							<p>
+								Welfare always goes first! Find or help to find a new home. Together
+								for the safety and happiness of your pets.
+							</p>
+						</div>
+					</div>
+					<div class="footer__contact">
+						<h2 class="footer__title">Be in touch</h2>
+						<div class="footer__wrap-contact">
+							<div class="footer__contacts">
+								<a href="#" class="footer__email">petsafety@pet.maw</a>
+								<a href="#" class="footer__phone">(090)-123-78-78</a>
+								<a href="#" class="footer__phone">(060)-123-67-78</a>
+							</div>
+							<h2 class="footer__title">FAQ</h2>
+						</div>
+					</div>
+					<div class="footer__subscribe">
+						<h2 class="footer__title">Subscribe to news</h2>
+						<form action="target" class="footer__form">
+							<input type="text" placeholder="Email" class="footer__input" />
+							<input type="submit" class="footer__button" />
+						</form>
+						<div class="footer__icons">
+							<a href="#" class="footer__icon _icon-youTube"></a>
+							<a href="#" class="footer__icon _icon-telegram"></a>
+							<a href="#" class="footer__icon _icon-x"></a>
+							<a href="#" class="footer__icon _icon-fb"></a>
+							<a href="#" class="footer__icon _icon-inst"></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom-text">
+					<p>© 2023, PetSafety | School of designe, Inc. All rights reserved.</p>
+					<p>Privacy Policy | Terms of Service</p>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20240226202445"></script>
+</body>
+
+</html>

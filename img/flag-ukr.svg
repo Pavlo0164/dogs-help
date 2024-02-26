@@ -1,0 +1,15 @@
+<svg width="35.000000" height="37.000000" viewBox="0 0 35 37" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip3_4217">
+			<rect id="Icon\flag" width="35.000000" height="37.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Icon\flag" width="35.000000" height="37.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip3_4217)">
+		<path id="Vector" d="M31.1113 5.13892L3.88867 5.13892C2.85742 5.13892 1.86816 5.57202 1.13916 6.34302C0.409668 7.11401 0 8.15967 0 9.25L0 18.5L35 18.5L35 9.25C35 8.15967 34.5903 7.11401 33.8608 6.34302C33.1318 5.57202 32.1426 5.13892 31.1113 5.13892Z" fill="#005BBB" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M0 27.75C0 28.8403 0.409668 29.886 1.13916 30.657C1.86816 31.428 2.85742 31.8611 3.88867 31.8611L31.1113 31.8611C32.1426 31.8611 33.1318 31.428 33.8608 30.657C34.5903 29.886 35 28.8403 35 27.75L35 18.5L0 18.5L0 27.75Z" fill="#FFD500" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
