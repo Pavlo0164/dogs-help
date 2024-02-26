@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Roboto:500&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap");
 @font-face {
   font-family: fonts;
   font-display: swap;
-  src: url(../fonts/fonts-svg.woff2) format("woff2"),url(../fonts/fonts-svg.woff) format("woff");
+  src: url('../fonts/fonts-svg.woff2') format("woff2"),url('../fonts/fonts-svg.woff') format("woff");
   font-weight: 400;
   font-style: normal
 }
