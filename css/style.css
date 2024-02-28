@@ -242,6 +242,9 @@ h6 {
   background-color: #000;
   opacity: 1
 }
+.menu__body {
+  min-height: 100vh
+}
 .menu__list {
   display: flex;
   flex-wrap: wrap;
