@@ -287,7 +287,7 @@ h6 {
 }
 .header__logo {
   position: relative;
-  z-index: 3;
+  z-index: 6;
   max-width: 9.5rem
 }
 .header__logo img {
@@ -882,7 +882,7 @@ h6 {
 .adoption__card::before {
   content: "Waiting";
   position: absolute;
-  z-index: 10;
+  z-index: 4;
   right: 0;
   top: 1.5rem;
   letter-spacing: .5px;
@@ -1468,7 +1468,8 @@ h6 {
     overflow: auto;
     padding: 6.25rem .9375rem .9375rem 1.875rem;
     transition: left .3s;
-    background-color: #fff
+    background-color: #fff;
+    z-index: 5
   }
   .menu__body::before {
     content: "";
@@ -1478,7 +1479,7 @@ h6 {
     left: -100%;
     top: 0;
     transition: left .3s;
-    z-index: 2
+    z-index: 5
   }
   .menu-open .menu__body {
     left: 0
@@ -1492,7 +1493,7 @@ h6 {
     position: relative;
     width: 1.875rem;
     height: 1.125rem;
-    z-index: 5
+    z-index: 53
   }
   .icon-menu span,
   .icon-menu::after,
@@ -1572,6 +1573,9 @@ h6 {
   }
   .donation {
     padding-top: 6.25rem
+  }
+  .item-select__select {
+    font-size: 1.5625rem
   }
   .page__block-top {
     flex-direction: column;
