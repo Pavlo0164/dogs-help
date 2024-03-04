@@ -4492,9 +4492,25 @@
             on: {}
         });
     }
+    function initSlidersThree() {
+        if (document.querySelector(".swiper-three")) new swiper_core_Swiper(".swiper-three", {
+            modules: [ Navigation, Pagination, Autoplay, EffectFade, Manipulation ],
+            slidesPerView: 1,
+            spaceBetween: 50,
+            speed: 800,
+            centeredSlides: true,
+            grabCursor: true,
+            navigation: {
+                prevEl: ".swiper-three-button-prev",
+                nextEl: ".swiper-three-button-next"
+            },
+            on: {}
+        });
+    }
     window.addEventListener("load", (function(e) {
         initSliders();
         initSlidersTwo();
+        initSlidersThree();
     }));
     let addWindowScrollEvent = false;
     function headerScroll() {
